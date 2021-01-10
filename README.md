@@ -1,7 +1,7 @@
 # Maze-Player-pygame
 This is an interactive pygame in which player collects five different items and reach the end of maze by collecting a key. There is also a welcome and good-bye screen.
 
-Description and Features
+Description and Features - 
 This is the MVC pattern for Maze game. Firstly, in Models, Maze class instantiates the structure
 (which is structure/maze of game). Maze class is in aggregation relationship with Player class.
 Player class instantiates name and its backpack (in which collected items will be stored). Maze
@@ -35,7 +35,7 @@ if user catches lion. This makes game more interactive.
 9. Player has to collect the key in order to go to exit door.
 10. Calculate high score based on how many animals does user collect.
 
-Some features about Scores and Database
+Some features about Scores and Database - 
 As an added feature, at the exit/game-over menu players are shown their points according to the
 amount of time they took, and the number of items collected. Each item is multiplied by 250 to
 calculate the amount of points for the items. If all items are collected a bonus of 500 points is
@@ -49,4 +49,4 @@ ENTER score is not saved to the database. To view the high score table, the flas
 needs to be running. Then all the scores will we loaded into the high score table, going from
 highest score to the lowest
 
-To run the game, just download and extract the code, type "python main_GUI.py" in terminaal (Hit Enter) for GUI version and "python main_text.py" (Hit Enter) for text version.
+To run the game, just download and extract the code, type "python main_GUI.py" in terminal (Hit Enter) for GUI version and "python main_text.py" (Hit Enter) for text version.
